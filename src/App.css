@@ -1,0 +1,88 @@
+.App {
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 70px auto;
+  grid-template-rows: 100vh;
+}
+
+.Sidebar {
+  background-color: #4a90e2;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.Dashboard {
+  display: grid;
+  height: 100vh;
+  background-color: white;
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  display: flex;
+  align-items: start;
+  height: 110px;
+}
+
+.header img {
+  padding-top: 50px;
+  padding-left: 50px;
+  height: 50px;
+  width: auto;
+}
+
+.content {
+  margin: 110px 20px 60px 50px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.left-column {
+  display: grid;
+  grid-template-rows: 1fr 3fr;
+  gap: 20px;
+}
+
+.top-row {
+  background-color: lightblue;
+  border-radius: 5px;
+  display: grid;
+  grid-template-rows: 1fr 2fr;
+}
+
+.top-row-2 {
+  background-color: red;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+
+.bottom-row {
+  background-color: lightgreen;
+  border-radius: 5px;
+  display: grid;
+  grid-template-rows: 1fr  1fr;
+}
+
+.right-column {
+  background-color: lightcoral;
+  border-radius: 5px;
+  display: grid;
+  grid-template-rows: 1fr 2fr 10fr;
+}
+
+.right-column-1 {
+  background-color: blueviolet;
+}
+
+.right-column-2 {
+  background-color: yellow;
+}
+
+.right-column-3 {
+  background-color: beige;
+}
