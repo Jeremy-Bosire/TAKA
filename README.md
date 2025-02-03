@@ -55,7 +55,7 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 ## Contact
 
 Jeremy Bosire - bosirejeremy4@gmail.com  
-Project Link: [https://github.com/yourusername/student-assignment-tracker](https://github.com/yourusername/student-assignment-tracker)
+Project Link: [https://taka-rho.vercel.app/](https://taka-rho.vercel.app/)
 
 ## Acknowledgments
 
